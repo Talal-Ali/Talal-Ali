@@ -22,7 +22,6 @@
 *   🕹️ **Project Grey Box:** I'm deep in the trenches of Unity netcode, building a fast-paced multiplayer movement shooter. Currently wrestling with server-authoritative physics, custom kinematic code, and client-side prediction so lag doesn't ruin the game flow.
 *   🧠 **AI-DBMS Convergence:** Figuring out how to embed heavy operational research solvers (like Google OR-Tools) directly alongside SQL database pipelines to handle massive, automated data-scheduling problems without melting the system.
 *   ⚡ **Low-Level Practice:** When I'm not writing gameplay scripts, I'm usually over-optimizing data structures in C/C++ or experimenting with multithreaded race conditions to make my algorithms run as close to the hardware as possible.
-
 ---
 
 ## 🛠️ Core Technical Stack
@@ -56,6 +55,7 @@
 ![GDB](https://img.shields.io/badge/GDB-8B0000?style=flat-square)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
+
 
 ---
 
