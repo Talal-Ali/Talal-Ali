@@ -1,62 +1,135 @@
-## Hi there 👋
+# Hi there! 👋 I'm Talal Ali
 
-<!--
-**Talal-Ali/Talal-Ali** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-# Talal Ali
-
-Hi there! I am a **Game Developer** specializing in high-performance gameplay systems, networking, and mechanics for online multiplayer movement shooters. 
+Welcome to my GitHub profile! I'm a passionate computer science student and developer focused on **data structures**, **algorithms**, **systems programming**, and **competitive programming**.
 
 ---
 
-### 🕹️ Current Project
+## 🚀 About Me
 
-*   **Project Grey Box** (In Development)
-    *   An online multiplayer movement shooter built from the ground up in the Unity engine.
-
----
-
-### 🛠 Tech Stack & Tools
-
-**Languages:**
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Game Dev & Tools:**
-![Unity](https://img.shields.io/badge/Unity-101010?style=for-the-badge&logo=unity&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
+- 🎓 **Cambridge A-Level Computer Science** (9618) Student
+- 💻 Passionate about **algorithm optimization** and **system design**
+- 🔧 Building projects in **C++**, **C**, and **Python**
+- 📚 Continuously learning and practicing coding problems
+- 🏆 Solving problems on **LeetCode** and academic assignments
 
 ---
 
-### 🧠 Core Engineering Foundations
-*I apply rigorous computer science fundamentals to solve complex game development challenges, from networking architecture to physics optimization:*
+## 📊 GitHub Stats
 
-*   **[Project_DSA] (Data Structures & Algorithms):** Core logic optimization, essential for handling high-frequency spatial queries and player state tracking in fast-paced shooters.
-*   **[Project_OS] (Operating Systems):** Low-level memory management and multithreading concepts, which directly inform how I optimize game loops and reduce CPU bottlenecks.
-*   **[LeetCode] (Problem Solving):** Continuous algorithmic practice to write clean, mathematically sound, and computationally efficient gameplay code.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Talal-Ali&show_icons=true&theme=dark&hide_border=true)
 
----
-
-### 📈 GitHub Stats
-![Talal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Talal-Ali&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Talal-Ali&layout=compact&theme=dark&hide_border=true)
 
 ---
 
-### 📬 Let's Connect
-*   **LinkedIn:** [Add your link here]
-*   **Portfolio/Itch.io:** [Add your game portfolio link here]
-*   **Email:** [Add your email here]
+## 🛠️ Tools & Technologies
+
+### Programming Languages
+- **C++** - Object-oriented programming, data structures, algorithms
+- **C** - Systems programming, multi-threading, process management
+- **Python** - Data structures, problem-solving, scripting
+
+### Libraries & Frameworks
+#### C++ Standard Libraries
+- `<iostream>` - Input/Output operations
+- `<vector>` - Dynamic array containers
+- `<stack>` & `<queue>` - Stack and queue implementations
+- `<limits>` - Numeric limits
+- `<string>` - String manipulation
+- `<stdexcept>` - Exception handling
+
+#### C Standard Libraries
+- `<stdio.h>` - Standard input/output
+- `<stdlib.h>` - Memory allocation, utilities
+- `<string.h>` - String operations
+- `<math.h>` - Mathematical functions
+- `<time.h>` - Time management and measurement
+- `<ctype.h>` - Character classification
+- `<pthread.h>` - POSIX multi-threading
+- `<semaphore.h>` - Synchronization primitives
+- `<unistd.h>` - UNIX API
+
+#### Python Libraries
+- **termcolor** - Terminal color formatting
+- **texttable** - ASCII table generation
+- **wifi** - WiFi network scanning
+- Built-in libraries: `time`, `collections`, `json`
+
+### Development Tools
+- **Compilers**: GCC, Clang, MSVC
+- **Debuggers**: GDB (GNU Debugger)
+- **Version Control**: Git & GitHub
+- **IDEs**: VS Code, Code::Blocks, Dev-C++, PyCharm
+
+---
+
+## 📂 Featured Projects
+
+### 🌳 City Path Finder - DSA Project
+**Language**: C++ | **Topics**: Dijkstra's Algorithm, Graph Theory, Priority Queues
+- Implements shortest path finding between cities
+- Dynamic traffic management with route history
+- Custom priority queue and stack implementations
+- [View Repository](https://github.com/Talal-Ali/Project_DSA)
+
+### 🍽️ Restaurant Order Management Simulator
+**Language**: C | **Topics**: Multi-threading, Synchronization, OS Concepts
+- Producer-consumer pattern with waiters and chefs
+- POSIX threads with mutex and semaphore synchronization
+- Concurrent order processing and queue management
+- [View Repository](https://github.com/Talal-Ali/Project_OS)
+
+### 📝 Programming Fundamentals Project
+**Language**: C | **Topics**: Data Structures, Algorithms, Memory Management
+- Comprehensive implementation of sorting and searching algorithms
+- Linked lists, stacks, and queue data structures
+- File I/O and dynamic memory management
+- [View Repository](https://github.com/Talal-Ali/PF-Project)
+
+### 🐍 Cambridge A-Level Python Practice
+**Language**: Python | **Topics**: OOP, Data Structures, Algorithm Solving
+- Solutions to Cambridge 9618 exam papers
+- Linked list and binary tree implementations
+- Object-oriented design patterns
+- [View Repository](https://github.com/Talal-Ali/Python_Practice)
+
+### 💡 LeetCode Solutions
+**Languages**: C++, Python | **Topics**: Algorithm Optimization, Problem Solving
+- 16+ algorithm problems solved across multiple categories
+- Array/String, Dynamic Programming, Backtracking, Graphs
+- [View Repository](https://github.com/Talal-Ali/LeetCode)
+
+---
+
+## 🎯 Core Competencies
+
+| Skill | Proficiency |
+|-------|-------------|
+| **Data Structures** | 🟢 Advanced (Linked Lists, Trees, Graphs, Stacks, Queues) |
+| **Algorithms** | 🟢 Advanced (Sorting, Searching, Graph Algorithms, DP) |
+| **C++ Programming** | 🟢 Advanced |
+| **C Programming** | 🟢 Advanced (Systems, Multi-threading, Memory Management) |
+| **Python** | 🟡 Intermediate-Advanced |
+| **Multi-threading** | 🟡 Advanced (Mutexes, Semaphores, Synchronization) |
+| **Problem Solving** | 🟢 Advanced (LeetCode, Competitive Programming) |
+| **OOP Concepts** | 🟢 Advanced |
+
+---
+
+## 📈 Learning Journey
+
+**Current Focus:**
+- 🎯 Mastering advanced algorithm optimization
+- 🔄 Deepening understanding of systems programming
+- 🚀 Solving complex algorithmic challenges
+- 📚 Cambridge A-Level Computer Science mastery
+
+**Recent Achievements:**
+- ✅ Implemented Dijkstra's algorithm with traffic management
+- ✅ Multi-threaded system design with synchronization
+- ✅ 16+ LeetCode problems solved
+- ✅ Complete DSA project with custom data structures
+
+---
+
+*Last Updated: June 2026*
