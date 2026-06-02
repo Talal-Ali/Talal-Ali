@@ -10,13 +10,35 @@
 
 ## 🛠️ Core Technical Stack
 
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | `C#` • `C++` • `C` • `Python` • `SQL` • `HTML5` • `CSS3` |
-| **AI & Optimization** | `Google OR-Tools` • `Constraint Programming` • `Heuristic Search` |
-| **Game Engineering** | `Unity Engine` • `Multiplayer Netcode` • `Kinematic Physics` |
-| **Systems & Infrastructure** | `POSIX Threads (pthreads)` • `Mutex/Semaphores` • `GCC` • `Clang` • `GDB` • `Git` |
-| **Environments** | `VS Code` • `PyCharm` • `Code::Blocks` |
+### Languages
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+### AI & Optimization
+![Google OR-Tools](https://img.shields.io/badge/Google_OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white)
+![Constraint Programming](https://img.shields.io/badge/Constraint--Programming-3F51B5?style=flat-square)
+![Heuristic Search](https://img.shields.io/badge/Heuristic--Search-FF6F61?style=flat-square)
+
+### Game Engineering
+![Unity](https://img.shields.io/badge/Unity-101010?style=flat-square&logo=unity&logoColor=white)
+![Multiplayer Netcode](https://img.shields.io/badge/Multiplayer--Netcode-2196F3?style=flat-square)
+![Kinematic Physics](https://img.shields.io/badge/Kinematic--Physics-E91E63?style=flat-square)
+
+### Systems, Infrastructure & Tools
+![POSIX Threads](https://img.shields.io/badge/pthreads-Multi--Threading-00599C?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GCC](https://img.shields.io/badge/GCC-FFCC00?style=flat-square&logo=gnu&logoColor=black)
+![Clang](https://img.shields.io/badge/Clang-7F00FF?style=flat-square)
+![GDB](https://img.shields.io/badge/GDB-8B0000?style=flat-square)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
 
 ---
 
