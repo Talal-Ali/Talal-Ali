@@ -73,11 +73,10 @@
 
 ---
 
-## 📊 Developer Analytics
+## 📊 Activity Metrics
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Talal-Ali&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Talal-Ali&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="48%" />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Talal-Ali&theme=github-dark-flexible&hide_border=true" alt="Talal's Contribution Graph" width="100%" />
 </p>
 
 ---
