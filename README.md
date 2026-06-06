@@ -75,10 +75,16 @@
 
 ## 📊 Activity Metrics
 
-<p align="center">
-  <p align="center">
-  <img src="http://googleusercontent.com/image_generation_content/0
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Talal-Ali&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" alt="Talal's System Telemetry" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Talal-Ali&layout=compact&theme=synthwave&hide_border=true&langs_count=5" alt="Language Allocation Matrix" width="45%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Talal-Ali&theme=matrix&hide_border=true" alt="Deployment Combo Streak" width="95%"/>
+</div>
 
 ---
 *Last Verified Update: June 2026*
