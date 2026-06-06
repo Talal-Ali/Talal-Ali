@@ -76,7 +76,8 @@
 ## 📊 Activity Metrics
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Talal-Ali&theme=github-dark-flexible&hide_border=true" alt="Talal's Contribution Graph" width="100%" />
+  <p align="center">
+  <img src="http://googleusercontent.com/image_generation_content/0
 </p>
 
 ---
