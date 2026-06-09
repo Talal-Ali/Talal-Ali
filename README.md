@@ -12,7 +12,7 @@
 
 *   ☕ Driven by caffeine, curiosity, and the satisfaction of watching a complex loop run slightly faster than it did yesterday.
 *   🎮 A game engineer at heart who looks at a video game and immediately wonders, *"How are they handling player interpolation on that server?"*
-*   🧠 I genuinely enjoy the logic behind constraint solvers and relational databases—meaning I’m probably one of the few people who finds writing raw SQL queries relaxing.
+*   🧠 I genuinely enjoy the logic behind constraint solvers and relational databases—meaning I'm probably one of the few people who finds writing raw SQL queries relaxing.
 *   ⚖️ Strong believer that clean, documented code and hyper-optimized execution don't have to be mutually exclusive.
 
 ---
@@ -53,9 +53,9 @@
 
 ## 👀 What I'm working on right now!
 
-*   🕹️ **Project Grey Box:** I'm deep in the trenches of Unity netcode, building a fast-paced multiplayer movement shooter. Currently wrestling with server-authoritative physics, custom kinematic code, and client-side prediction so lag doesn't ruin the game flow.
-*   🧠 **AI-DBMS Convergence:** Figuring out how to embed heavy operational research solvers (like Google OR-Tools) directly alongside SQL database pipelines to handle massive, automated data-scheduling problems without melting the system.
-*   ⚡ **Low-Level Practice:** When I'm not writing gameplay scripts, I'm usually over-optimizing data structures in C/C++ or experimenting with multithreaded race conditions to make my algorithms run as close to the hardware as possible.
+*   🕹️ **Project Grey Box:** I'm deep in the trenches of Unity netcode, building a fast-paced multiplayer movement shooter. Currently wrestling with server-authoritative physics, custom kinematic[...]
+*   🧠 **AI-DBMS Convergence:** Figuring out how to embed heavy operational research solvers (like Google OR-Tools) directly alongside SQL database pipelines to handle massive, automated data-schedu[...]
+*   🤖 **Smart Classifier:** Developing intelligent classification systems leveraging machine learning and pattern recognition to optimize data processing and decision-making workflows[...]
 
 ---
 
@@ -79,7 +79,7 @@
 > **DYNAMIC TELEMETRY CORE:** Live-updating repository tracking, runtime commit logs, and language allocation loops.
 
 <div align="center">
-  <img src="https://github-readme-stats-alpha.vercel.app/api?username=Talal-Ali&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" alt="Talal's System Telemetry" width="48%" />
+  <img src="https://github-readme-stats-alpha.vercel.app/api?username=Talal-Ali&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" alt="Talal's System Telemetry[...]
   
   <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=Talal-Ali&layout=compact&theme=matrix&hide_border=true&langs_count=5" alt="Language Allocation Matrix" width="45%" />
 </div>
