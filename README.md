@@ -1,10 +1,5 @@
 # Talal Ali
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=Talal-Ali">
-    <img src="https://komarev.com/ghpvc/?username=Talal-Ali&label=Profile%20views&color=00FFFF&style=flat-square" alt="Talal-Ali's profile views" />
-  </a>
-</p>
 
 ### Software Engineer | Game Systems & AI Architecture
 > Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.
