@@ -8,7 +8,6 @@ on:
       - main
 
 jobs:
-  # Left: Coding Stats & Habits
   metrics-left:
     runs-on: ubuntu-latest
     permissions:
@@ -23,20 +22,18 @@ jobs:
           base: "header, activity, community, metadata"
           config_timezone: "Asia/Karachi"
           
-          # Languages
+          # Fix: Enabled languages and removed filters to prevent "0 languages" error
           plugin_languages: "yes"
           plugin_languages_ignored: ""
           plugin_languages_details: "bytes-size, percentage"
           plugin_languages_sections: "most-used"
           plugin_languages_limit: 8
           
-          # Habits
           plugin_habits: "yes"
           plugin_habits_days: 14
           plugin_habits_charts: "yes"
           plugin_lines: "yes"
 
-  # Right: Calendar & LeetCode
   metrics-right:
     runs-on: ubuntu-latest
     permissions:
@@ -54,11 +51,12 @@ jobs:
           plugin_isocalendar: "yes"
           plugin_isocalendar_duration: "half-year"
           plugin_stargazers: "yes"
+          
+          # Fixed LeetCode username
           plugin_leetcode: "yes"
           plugin_leetcode_user: "_talal_ali_"
           plugin_leetcode_sections: "heatmap, ranking, problems"
 
-  # AniList (Restored)
   metrics-anilist:
     runs-on: ubuntu-latest
     permissions:
