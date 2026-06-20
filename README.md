@@ -32,10 +32,10 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
 <tr>
 <td width="50%" valign="top">
-<img src="metrics-left.svg" width="100%" alt="System Header, Habits, & 3D Skyline City">
+<img src="metrics-left.svg" width="100%" alt="System Header, Skyline, Habits, LeetCode & AniList">
 </td>
 <td width="50%" valign="top">
-<img src="metrics-right.svg" width="100%" alt="Isometric Voxel Calendar & Activity Waves">
+<img src="metrics-right.svg" width="100%" alt="Isometric Voxel Calendar, Activity Waves, Stars, & PageSpeed">
 </td>
 </tr>
 </table>
