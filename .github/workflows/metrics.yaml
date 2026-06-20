@@ -68,17 +68,29 @@ jobs:
           plugin_stargazers: "yes"
           plugin_stargazers_charts: "yes"
 
-          # Anilist watch/reading list
-          plugin_anilist: "yes"
-          plugin_anilist_medias: "anime, manga"
-          plugin_anilist_username: "TalalAl1"
-
           # LeetCode statistics
           plugin_leetcode: "yes"
           plugin_leetcode_user: "_talal_ali_"
           plugin_leetcode_sections: "warnings, heatmap, ranking, problems"
 
           plugin_music: "no"
+
+  metrics-anilist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: "metrics.plugin.anilist.svg"
+          token: "NOT_NEEDED"
+          user: "Talal-Ali"
+          base: ""
+          plugin_anilist: "yes"
+          plugin_anilist_medias: "anime"
+          plugin_anilist_sections: "favorites, watching"
+          plugin_anilist_limit: "1"
+          plugin_anilist_username: "TalalAl1"
 
   github-skyline:
     runs-on: ubuntu-latest
