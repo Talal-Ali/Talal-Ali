@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # LEFT GRAPHICS PANEL: Clean Header, Habits Charts, & Code Volume Bars
+      # LEFT GRAPHICS PANEL: Clean Header, Habits Charts, Code Volume, & 3D Skyline
       - name: Generate Left Side Visuals
         uses: lowlighter/metrics@latest
         with:
@@ -24,13 +24,19 @@ jobs:
           base: header
           config_timezone: Asia/Karachi
           
-          # Coding Habits (Visual schedules and donut charts)
+          # 3D Skyline City Plugin (Renders a voxel architecture layout of commits)
+          plugin_skyline: yes
+          plugin_skyline_year: current
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
+          
+          # Coding Habits Donut Charts
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: no
           plugin_habits_charts: yes
           
-          # Lines of Code (Sleek linear differential charts)
+          # Lines of Code Deltas
           plugin_lines: yes
 
       # RIGHT GRAPHICS PANEL: 3D Calendar, Activity Waves, Languages, and Badges
@@ -48,7 +54,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
-          # Activity Graph (Renders a high-fidelity colorful wave graph of commit habits)
+          # Activity Graph Waves
           plugin_activitygraph: yes
           plugin_activitygraph_days: 14
           
@@ -58,7 +64,7 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 6
           
-          # Gamified Arcade Achievements (Micro compact layout strip)
+          # Gamified Arcade Achievements
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
