@@ -20,23 +20,26 @@
 </p>
 ---
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
-<table width="100%" border="0" cellpadding="0" cellspacing="10">
+
+<p align="center">
+<table width="70%" border="0" cellpadding="0" cellspacing="10">
 <tr>
 <td width="50%" valign="top">
-<img src="metrics-left.svg" width="100%" alt="System Header, Habits & Progress Metrics">
+<img src="metrics-left.svg" width="100%" alt="System Header, Habits & Language Activity">
 </td>
 <td width="50%" valign="top">
 <img src="metrics-right.svg" width="100%" alt="Visual Graphical Telemetry Dashboard">
 </td>
 </tr>
 </table>
+</p>
 
 <p align="center">
   <img src="metrics.plugin.anilist.svg" width="60%" alt="Anilist Favorites & Currently Watching">
 </p>
 ---
 <p align="center">
-  <img src="github-skyline.svg" width="100%" alt="GitHub Skyline">
+  <img src="github-skyline.svg" width="70%" alt="GitHub Skyline">
 </p>
 ---
 <p align="center">
