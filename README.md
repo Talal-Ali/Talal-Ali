@@ -29,22 +29,20 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
 <tr>
 <td width="50%" valign="top">
-<img src="metrics-left.svg" width="100%" alt="System Header, Habits & Progress Metrics">
+<img src="metrics-left.svg" width="100%" alt="Metrics Left">
 </td>
 <td width="50%" valign="top">
-<img src="metrics-right.svg" width="100%" alt="Visual Graphical Telemetry Dashboard">
+<img src="metrics-right.svg" width="100%" alt="Metrics Right">
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="metrics-anilist.svg" width="60%" alt="Anilist Favorites & Currently Watching">
-</p>
-
 ---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
 
 ---
+
 <p align="center"><i>Telemetry matrices dynamically updated via automated deployment workflows.</i></p>
