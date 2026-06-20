@@ -84,13 +84,12 @@ jobs:
         with:
           filename: "metrics.plugin.anilist.svg"
           token: "NOT_NEEDED"
-          user: "Talal-Ali"
           base: ""
           plugin_anilist: "yes"
+          plugin_anilist_user: "TalalAl1"
           plugin_anilist_medias: "anime"
           plugin_anilist_sections: "favorites, watching"
           plugin_anilist_limit: "1"
-          plugin_anilist_username: "TalalAl1"
 
   github-skyline:
     runs-on: ubuntu-latest
