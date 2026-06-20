@@ -28,8 +28,8 @@
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
 <div align="center">
-  <img src="metrics-left.svg" width="49%" alt="Metrics Left">
-  <img src="metrics-right.svg" width="49%" alt="Metrics Right">
+  <img src="metrics-left.svg" width="48%" alt="Metrics Left" />
+  <img src="metrics-right.svg" width="48%" alt="Metrics Right" />
 </div>
 
 <p align="center">
