@@ -1,7 +1,6 @@
-<!-- Dynamic Waving Cyberpunk Gradient Banner -->
-<img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=23,28&height=180&section=header&text=TALAL%20ALI&fontSize=50&animation=twinkling&fontAlignY=40" width="100%" alt="Header Banner">
+# 🎮 Talal Ali
+### Software Engineer | Game Systems & AI Architecture
 
-### 🎮 Software Engineer | Game Systems & AI Architecture
 > Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.
 
 ---
@@ -30,23 +29,10 @@
 
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
-<!-- 100% Full-Bleed Dashboard Profile Header Block -->
+<!-- This standalone block pulls your full-bleed dashboard with no structural mixing -->
 <p align="center">
-<img src="metrics-header.svg" width="100%" alt="System Metrics Main Header">
+  <img src="github-metrics.svg" width="100%" alt="GitHub Metrics Master Dashboard">
 </p>
-
-<table width="100%" border="0" cellpadding="0" cellspacing="10">
-<tr>
-<td width="50%" valign="top">
-<!-- Left side columns: Habits, Lines metrics, Follow-up logs -->
-<img src="metrics-left.svg" width="100%" alt="Activity Telemetry Matrix">
-</td>
-<td width="50%" valign="top">
-<!-- Right side columns: 3D Graph, Dual Languages charts, badging structures -->
-<img src="metrics-right.svg" width="100%" alt="Graphical Analytics Dashboard">
-</td>
-</tr>
-</table>
 
 ---
 <p align="center"><i>Telemetry matrices dynamically updated via automated deployment workflows.</i></p>
