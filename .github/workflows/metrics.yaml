@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Step 1: Base profile stats block & habits tracking cards
+      # Left Column: Profile Header & Coding Habits
       - name: Generate Left Core Panel
         uses: lowlighter/metrics@latest
         with:
@@ -24,12 +24,11 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Karachi
           plugin_habits: yes
-          plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-      # Step 2: Dedicated 3D Isometric commit map
+      # Right Column Top: 3D Isometric Calendar
       - name: Generate Right Calendar Panel
         uses: lowlighter/metrics@latest
         with:
@@ -42,7 +41,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-      # Step 3: Core language bar distributions & tech developer stacks
+      # Right Column Bottom: Languages & Tech Icons Grid
       - name: Generate Right Language Panel
         uses: lowlighter/metrics@latest
         with:
