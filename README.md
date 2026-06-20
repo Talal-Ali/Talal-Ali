@@ -30,21 +30,16 @@
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
-  <tr>
-    <!-- ================= LEFT PANEL CONTAINER ================= -->
-    <td width="50%" valign="top">
-      <img src="metrics-left-stats.svg" width="100%" alt="Core Metrics & Coding Activity Header">
-    </td>
-    
-    <!-- ================= RIGHT PANEL CONTAINER ================= -->
-    <td width="50%" valign="top">
-      <!-- Isometric Graph -->
-      <img src="metrics-right-calendar.svg" width="100%" alt="3D Architectural Commit Graph">
-      <br><br>
-      <!-- Languages Breakdown & Tech Matrix -->
-      <img src="metrics-right-languages.svg" width="100%" alt="Compiler Languages & Stacks">
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<img src="metrics-left-stats.svg" width="100%" alt="Core Metrics & Coding Activity Header">
+</td>
+<td width="50%" valign="top">
+<img src="metrics-right-calendar.svg" width="100%" alt="3D Architectural Commit Graph">
+<br><br>
+<img src="metrics-right-languages.svg" width="100%" alt="Compiler Languages & Stacks">
+</td>
+</tr>
 </table>
 
 ---
