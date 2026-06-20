@@ -13,47 +13,52 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # LEFT GRAPHICS PANEL: Clean Header, Habits Charts, & Code Volume Bars
+      - name: Generate Left Side Visuals
+        uses: lowlighter/metrics@latest
         with:
-          filename: github-metrics.svg
+          filename: metrics-left.svg
           token: ${{ secrets.readme }}
           user: Talal-Ali
           template: classic
-          
-          # Core Sections (This activates your missing header block!)
-          base: header, activity, community, repositories, metadata
+          base: header
           config_timezone: Asia/Karachi
-
-          # 1. 3D Isometric Calendar Graph
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # 2. Coding Habits & Active Hours
+          
+          # Coding Habits (Visual schedules and donut charts)
           plugin_habits: yes
           plugin_habits_days: 14
-          plugin_habits_facts: yes
+          plugin_habits_facts: no
           plugin_habits_charts: yes
-
-          # 3. Code Volume (Vibrant Green/Red Line Deltas)
+          
+          # Lines of Code (Sleek linear differential charts)
           plugin_lines: yes
 
-          # 4. Multi-Language Polyglot Analysis
+      # RIGHT GRAPHICS PANEL: 3D Calendar, Activity Waves, Languages, and Badges
+      - name: Generate Right Side Visuals
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-right.svg
+          token: ${{ secrets.readme }}
+          user: Talal-Ali
+          template: classic
+          base: ""
+          config_timezone: Asia/Karachi
+          
+          # 3D Isometric Calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          # Activity Graph (Renders a high-fidelity colorful wave graph of commit habits)
+          plugin_activitygraph: yes
+          plugin_activitygraph_days: 14
+          
+          # Languages Progress Bars
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-
-          # 5. Technical Skill Icon Grid
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 15
-
-          # 6. Community Reaction Emoji Counters
-          plugin_reactions: yes
-          plugin_reactions_limit: 100
-          plugin_reactions_days: 30
-
-          # 7. Gamified Arcade Badges (Space-saving compact strip)
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          
+          # Gamified Arcade Achievements (Micro compact layout strip)
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
