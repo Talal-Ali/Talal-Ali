@@ -43,12 +43,9 @@ jobs:
           plugin_lighthouse_url: "https://your-portfolio-link"
           plugin_lighthouse_detailed: "yes"
 
-          # Right column — isometric 3D contribution calendar
+          # Right column — isometric 3D contribution calendar (compact block, not full-year strip)
           plugin_isocalendar: "yes"
-          plugin_isocalendar_duration: "full-year"
-
-          # Right column — project board / todos
-          plugin_projects: "yes"
+          plugin_isocalendar_duration: "half-year"
 
           # Code line stats
           plugin_lines: "yes"
