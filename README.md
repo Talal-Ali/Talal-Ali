@@ -6,64 +6,43 @@
   </a>
 </p>
 
-## 📊 GitHub Stats & Trophies
-<p align="center">
-  <a href="https://github.com/Talal-Ali">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Talal-Ali&cache_seconds=7200&layout=compact&theme=tokyonight&border_radius=10" alt="Talal-Ali's GitHub Stats" />
-  </a>
-  <img src="https://streak-stats.demolab.com/?user=Talal-Ali&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Talal-Ali's GitHub Streak" width="49%" />
+### Software Engineer | Game Systems & AI Architecture
+> Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.
+---
+## 🤷‍♂️ TL;DR — Who Am I?
+* 🎓 **FAST '24K CS Student**
+* 🎮 **Passionate about Game Dev & Systems Architecture**
+* ⚡ **Writing optimized, low-level code**
+* ☕ Driven by caffeine, curiosity, and the satisfaction of watching a complex loop run slightly faster than it did yesterday.
+* 🎮 A game engineer at heart who looks at a video game and immediately wonders, *"How are they handling player interpolation on that server?"*
+* 🧠 I genuinely enjoy constraint solvers and relational databases — meaning I find writing raw SQL queries relaxing.
+* 🚀 Strong believer that clean, documented code and hyper-optimized execution don't have to be mutually exclusive.
+---
+### 🌐 Connect With Me
+<p align="left">
+  <a href="https://www.linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:talalali0310@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://itch.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Itch.io-crimson?style=for-the-badge&logo=itch.io&logoColor=white" alt="Itch.io"></a>
 </p>
-<p align="center">
-  <img src="https://trophy.ryglcloud.net/?username=Talal-Ali&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Talal Ali's GitHub Trophies" />
-</p>
-
-## 🛠️ Languages & Tools
-
-<h3 align="center">Programming Languages</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" />
-
-</p>
-
-<h3 align="center">Frontend</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="40" />
-
-</p>
-
-<h3 align="center">Database</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" />
-
-</p>
-
-<h3 align="center">Tools</h3>
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />
-
-</p>
+---
+## 🖥️ SYSTEM CONFIGURATION DASHBOARD
+<table width="100%" border="0" cellpadding="0" cellspacing="10">
+<tr>
+<td width="50%" valign="top">
+<img src="metrics-left.svg" width="100%" alt="System Header, Habits & Progress Metrics">
+</td>
+<td width="50%" valign="top">
+<img src="metrics-right.svg" width="100%" alt="Visual Graphical Telemetry Dashboard">
+</td>
+</tr>
+</table>
 
 <p align="center">
-  <a href="https://github.com/Talal-Ali">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Talal-Ali&langs_count=8&layout=compact&theme=tokyonight&border_radius=10" alt="Top Languages" />
-  </a>
+  <img src="metrics.plugin.anilist.svg" width="60%" alt="Anilist Favorites & Currently Watching">
 </p>
-
-![Top language](https://stats.pphat.top/languages?username=Talal-Ali)
-<br/>
-
-## 🔗 Connect with Me
+---
 <p align="center">
-  <a href="mailto:talalali0310@gmail.com">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="40" />
-  </a>
+  <img src="github-skyline.svg" width="100%" alt="GitHub Skyline">
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
-</p>
+---
+<p align="center"><i>Telemetry matrices dynamically updated via automated deployment workflows.</i></p>
