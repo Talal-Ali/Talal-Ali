@@ -7,80 +7,60 @@ on:
     branches: ["main", "master"]
 
 jobs:
-  # --- LEFT COLUMN PLUGINS ---
-  left-column:
+  generate-dashboard:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Core Profile & Habits
+      # === LEFT PANEL: Profile Header, Coding Habits, Tech Grid ===
+      - name: Left Column Components
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics-left-habits.svg
+          filename: metrics-left.svg
           token: ${{ secrets.readme }}
           user: Talal-Ali
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Karachi
           
-          # Coding habits and activity charts
+          # Habits Charts
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-      - name: Mastered Technologies & Topics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-left-topics.svg
-          token: ${{ secrets.readme }}
-          user: Talal-Ali
-          template: classic
-          base: ""
+          # Dev Icons Grid
           plugin_topics: yes
           plugin_topics_mode: icons
-          plugin_topics_limit: 20
+          plugin_topics_limit: 0
 
-  # --- RIGHT COLUMN PLUGINS ---
-  right-column:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: PageSpeed & 3D Isometric Calendar
+      # === RIGHT PANEL: PageSpeed, 3D Map, Music, Languages, Roadmap ===
+      - name: Right Column Components
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics-right-geo.svg
+          filename: metrics-right.svg
           token: ${{ secrets.readme }}
           user: Talal-Ali
           template: classic
           base: ""
+          config_timezone: Asia/Karachi
           
-          # PageSpeed Insights Performance
+          # PageSpeed Insights
           plugin_pagespeed: yes
-          plugin_pagespeed_url: https://github.com/Talal-Ali
+          plugin_pagespeed_url: [https://github.com/Talal-Ali](https://github.com/Talal-Ali)
           
-          # 3D Contribution Calendar
+          # 3D Isometric Graph
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
-      - name: Music & Languages & Projects
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-right-details.svg
-          token: ${{ secrets.readme }}
-          user: Talal-Ali
-          template: classic
-          base: ""
           
-          # Suggested Tracks (Adjust provider to 'spotify' or 'apple')
+          # Music Stream Track
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_limit: 2
           
-          # Most Used Languages breakdown
+          # Language Breakdown Matrix
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -89,7 +69,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_threshold: 0%
           
-          # Project Roadmap & Todos
+          # Project Roadmap Tasks
           plugin_projects: yes
           plugin_projects_limit: 4
           plugin_projects_descriptions: yes
