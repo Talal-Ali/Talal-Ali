@@ -1,5 +1,8 @@
 # Talal Ali
 
+### Software Engineer | Game Systems & AI Architecture
+> Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.
+
 ---
 
 ## 🤷‍♂️ TL;DR — Who Am I?
@@ -25,13 +28,13 @@
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
 <div align="center">
-  <img src="metrics-top-left.svg" width="49%" alt="Base & Languages" />
-  <img src="metrics-anilist.svg" width="49%" alt="AniList" />
+  <img src="metrics-top-left.svg" width="49%" alt="System Stats" />
+  <img src="metrics-top-right.svg" width="49%" alt="Contributions & Habits" />
 </div>
 
 <div align="center">
-  <img src="metrics-bottom-left.svg" width="49%" alt="LeetCode" />
-  <img src="metrics-bottom-right.svg" width="49%" alt="Calendar, Habits & Stargazers" />
+  <img src="metrics-bottom-left.svg" width="49%" alt="Languages & LeetCode" />
+  <img src="metrics-bottom-right.svg" width="49%" alt="AniList Favorites" />
 </div>
 
 ---
