@@ -18,11 +18,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: "metrics-left.svg"
           user: "Talal-Ali"
-          template: "classic"
+          template: "terminal"
           base: "header, activity, community, metadata"
-          config_timezone: "Asia/Karachi"
           
-          # Fix: Enabled languages and removed filters to prevent "0 languages" error
           plugin_languages: "yes"
           plugin_languages_ignored: ""
           plugin_languages_details: "bytes-size, percentage"
@@ -44,15 +42,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: "metrics-right.svg"
           user: "Talal-Ali"
-          template: "classic"
+          template: "terminal"
           base: ""
-          config_timezone: "Asia/Karachi"
           
           plugin_isocalendar: "yes"
           plugin_isocalendar_duration: "half-year"
           plugin_stargazers: "yes"
           
-          # Fixed LeetCode username
+          # LeetCode Configuration
           plugin_leetcode: "yes"
           plugin_leetcode_user: "_talal_ali_"
           plugin_leetcode_sections: "heatmap, ranking, problems"
@@ -67,6 +64,7 @@ jobs:
           filename: "metrics-anilist.svg"
           token: "NOT_NEEDED"
           base: ""
+          template: "terminal"
           plugin_anilist: "yes"
           plugin_anilist_user: "TalalAl1"
           plugin_anilist_medias: "anime"
