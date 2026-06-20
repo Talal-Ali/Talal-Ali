@@ -1,25 +1,16 @@
 <br>
-<h3 align="center">📊 MY GITHUB DEPLOYMENT DASHBOARD</h3>
+<h3 align="center">🖥️ MY GITHUB DEPLOYMENT DASHBOARD</h3>
 <br>
 
 <table width="100%">
   <tr>
-    <!-- ================= LEFT COLUMN ================= -->
+    <!-- Left Column Panel -->
     <td width="50%" valign="top">
-      <!-- Core Profile Stats Card & Coding Activity Charts -->
-      <img src="metrics-left-habits.svg" width="100%" alt="Profile Stats & Habits">
-      <br><br>
-      <!-- Tech Icon Stack Grid -->
-      <img src="metrics-left-topics.svg" width="100%" alt="Mastered Technologies">
+      <img src="metrics-left.svg" width="100%" alt="Left Side Stats">
     </td>
-    
-    <!-- ================= RIGHT COLUMN ================= -->
+    <!-- Right Column Panel -->
     <td width="50%" valign="top">
-      <!-- Web Performance & 3D Contribution Graph -->
-      <img src="metrics-right-geo.svg" width="100%" alt="Performance & 3D Matrix">
-      <br><br>
-      <!-- Audio Tracks, Language Breakdown & Project Roadmaps -->
-      <img src="metrics-right-details.svg" width="100%" alt="Languages & Roadmaps">
+      <img src="metrics-right.svg" width="100%" alt="Right Side Stats">
     </td>
   </tr>
 </table>
