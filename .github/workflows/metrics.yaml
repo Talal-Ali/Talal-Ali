@@ -8,6 +8,7 @@ on:
       - main
 
 jobs:
+  # Left: Coding Stats & Habits
   metrics-left:
     runs-on: ubuntu-latest
     permissions:
@@ -20,20 +21,22 @@ jobs:
           user: "Talal-Ali"
           template: "classic"
           base: "header, activity, community, metadata"
+          config_timezone: "Asia/Karachi"
           
-          # Fixes language error
+          # Languages
           plugin_languages: "yes"
           plugin_languages_ignored: ""
           plugin_languages_details: "bytes-size, percentage"
+          plugin_languages_sections: "most-used"
           plugin_languages_limit: 8
           
-          # Fixes coding habits error
+          # Habits
           plugin_habits: "yes"
           plugin_habits_days: 14
           plugin_habits_charts: "yes"
-          
           plugin_lines: "yes"
 
+  # Right: Calendar & LeetCode
   metrics-right:
     runs-on: ubuntu-latest
     permissions:
@@ -46,13 +49,16 @@ jobs:
           user: "Talal-Ali"
           template: "classic"
           base: ""
+          config_timezone: "Asia/Karachi"
           
           plugin_isocalendar: "yes"
           plugin_isocalendar_duration: "half-year"
           plugin_stargazers: "yes"
           plugin_leetcode: "yes"
+          plugin_leetcode_user: "_talal_ali_"
           plugin_leetcode_sections: "heatmap, ranking, problems"
 
+  # AniList (Restored)
   metrics-anilist:
     runs-on: ubuntu-latest
     permissions:
@@ -60,11 +66,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           filename: "metrics-anilist.svg"
+          token: "NOT_NEEDED"
           base: ""
-          
-          # Fixes AniList error
           plugin_anilist: "yes"
           plugin_anilist_user: "TalalAl1"
           plugin_anilist_medias: "anime"
