@@ -32,10 +32,10 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
 <tr>
 <td width="50%" valign="top">
-<img src="metrics-left.svg" width="100%" alt="System Header & Core Habitation Metrics">
+<img src="metrics-left.svg" width="100%" alt="System Header, Habits, & 3D Skyline City">
 </td>
 <td width="50%" valign="top">
-<img src="metrics-right.svg" width="100%" alt="Visual Graphical Telemetry Dashboard">
+<img src="metrics-right.svg" width="100%" alt="Isometric Voxel Calendar & Activity Waves">
 </td>
 </tr>
 </table>
