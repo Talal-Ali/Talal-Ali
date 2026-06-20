@@ -17,7 +17,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: "metrics-left.svg"
-
           user: "Talal-Ali"
           template: "classic"
           base: "header, activity, community, metadata"
@@ -51,7 +50,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: "metrics-right.svg"
-
           user: "Talal-Ali"
           template: "classic"
           base: ""
@@ -60,7 +58,7 @@ jobs:
           config_theme: "dark"
           config_animations: "yes"
 
-          # Isometric 3D contribution calendar (compact block, not full-year strip)
+          # Isometric 3D contribution calendar
           plugin_isocalendar: "yes"
           plugin_isocalendar_duration: "half-year"
 
@@ -73,8 +71,6 @@ jobs:
           plugin_leetcode_user: "_talal_ali_"
           plugin_leetcode_sections: "warnings, heatmap, ranking, problems"
 
-          plugin_music: "no"
-
   metrics-anilist:
     runs-on: ubuntu-latest
     permissions:
@@ -85,24 +81,26 @@ jobs:
           filename: "metrics.plugin.anilist.svg"
           token: "NOT_NEEDED"
           base: ""
+          # AniList Heavy Data Extraction Parameters
           plugin_anilist: "yes"
           plugin_anilist_user: "TalalAl1"
           plugin_anilist_medias: "anime"
           plugin_anilist_sections: "favorites, watching"
-          plugin_anilist_limit: "5"
+          plugin_anilist_limit: "2"
+          # Unlocks deep layout cards seen in image_88035c.png
+          plugin_anilist_limit_characters: "100"
 
-  github-skyline:
+  github-skyline-fixed:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: "NOT_NEEDED"
+          token: ${{ secrets.GITHUB_TOKEN }}
           filename: "github-skyline.svg"
           user: "Talal-Ali"
           base: ""
-          plugin_skyline: "yes"
-          plugin_skyline_year: "2026"
-          plugin_skyline_frames: "6"
-          plugin_skyline_quality: "1"
+          # Uses the native 3D city renderer template since the skyline api is dead
+          template: "isometric"
+          config_theme: "dark"
