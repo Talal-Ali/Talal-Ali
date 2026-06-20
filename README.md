@@ -7,9 +7,9 @@
 
 ### 🌐 Connect With Me
 <p left="align">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://YOUR_ITCHIO_USERNAME.itch.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Itch.io-crimson?style=for-the-badge&logo=itch.io&logoColor=white" alt="Itch.io"></a>
+  <a href="https://itch.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Itch.io-crimson?style=for-the-badge&logo=itch.io&logoColor=white" alt="Itch.io"></a>
 </p>
 
 ---
@@ -27,12 +27,25 @@
 
 ---
 
-## 🖥️ MY GITHUB DEPLOYMENT DASHBOARD
+## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
-<!-- This block pulls your standalone, full-bleed metrics image seamlessly -->
-<p align="center">
-  <img src="github-metrics.svg" alt="GitHub Metrics Dashboard" width="100%">
-</p>
+<table width="100%" border="0" cellpadding="0" cellspacing="10">
+  <tr>
+    <!-- ================= LEFT PANEL CONTAINER ================= -->
+    <td width="50%" valign="top">
+      <img src="metrics-left-stats.svg" width="100%" alt="Core Metrics & Coding Activity Header">
+    </td>
+    
+    <!-- ================= RIGHT PANEL CONTAINER ================= -->
+    <td width="50%" valign="top">
+      <!-- Isometric Graph -->
+      <img src="metrics-right-calendar.svg" width="100%" alt="3D Architectural Commit Graph">
+      <br><br>
+      <!-- Languages Breakdown & Tech Matrix -->
+      <img src="metrics-right-languages.svg" width="100%" alt="Compiler Languages & Stacks">
+    </td>
+  </tr>
+</table>
 
 ---
-<p align="center"><i>Automated updates deployed daily via GitHub Actions</i></p>
+<p align="center"><i>Automated telemetry maps updated via clean workflow sequential processing</i></p>
