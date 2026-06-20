@@ -30,13 +30,20 @@
 
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
+<!-- 100% Full-Bleed Dashboard Profile Header Block -->
+<p align="center">
+<img src="metrics-header.svg" width="100%" alt="System Metrics Main Header">
+</p>
+
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
 <tr>
 <td width="50%" valign="top">
-<img src="metrics-left.svg" width="100%" alt="Core Metrics & Activity Header">
+<!-- Left side columns: Habits, Lines metrics, Follow-up logs -->
+<img src="metrics-left.svg" width="100%" alt="Activity Telemetry Matrix">
 </td>
 <td width="50%" valign="top">
-<img src="metrics-right.svg" width="100%" alt="Visual Metrics Dashboard">
+<!-- Right side columns: 3D Graph, Dual Languages charts, badging structures -->
+<img src="metrics-right.svg" width="100%" alt="Graphical Analytics Dashboard">
 </td>
 </tr>
 </table>
