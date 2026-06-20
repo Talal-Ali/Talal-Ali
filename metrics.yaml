@@ -1,0 +1,63 @@
+name: GitHub Metrics
+on:
+  schedule:
+    # Runs every day at 00:00 UTC — adjust as you like
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # --- Auth ---
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: github-metrics.svg
+
+          # --- Base ---
+          user: Talal-Ali
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Karachi
+
+          # --- Visual theme: dark "matrix" look like the reference screenshot ---
+          plugin_lines: yes
+          plugin_lines_sections: code
+          config_display: large
+          config_animations: yes
+
+          # --- Isometric 3D contribution calendar ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # --- Performance / Accessibility / SEO style rings ---
+          plugin_lighthouse: yes
+          plugin_lighthouse_url: https://your-portfolio-link
+          plugin_lighthouse_detailed: yes
+
+          # --- Coding habits & activity graph ---
+          plugin_habits: yes
+          plugin_habits_charts_type: bar
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+
+          # --- Languages breakdown ---
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_skipped: Talal-Ali
+          plugin_languages_details: bytes-size, percentage
+
+          # --- Suggested-tracks style music plugin (optional, like the screenshot) ---
+          plugin_music: no
+
+          # --- Repository "roadmap" / project board style section ---
+          plugin_projects: yes
+
+          # --- Dark theme matching the screenshot ---
+          config_theme: dark
