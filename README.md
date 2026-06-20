@@ -20,16 +20,6 @@
 
 ---
 
-## 📊 GitHub Metrics
-
-> Auto-generated isometric contribution graph, performance scores, and language activity — refreshed daily by `lowlighter/metrics`.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" width="100%" />
-</p>
-
----
-
 ## 🛠️ Mastered Technologies & Topics
 
 ### 🕹️ Real-Time & Systems Programming
@@ -88,4 +78,14 @@
 
 <p align="right">
   <i>Last Verified Update: June 2026</i>
+</p>
+
+---
+
+## 📊 GitHub Metrics
+
+> Auto-generated isometric contribution graph, performance scores, and language activity — refreshed daily by `lowlighter/metrics`.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" width="100%" />
 </p>
