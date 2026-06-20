@@ -29,10 +29,16 @@
 
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
 
-<!-- This standalone block pulls your full-bleed dashboard with no structural mixing -->
-<p align="center">
-  <img src="github-metrics.svg" width="100%" alt="GitHub Metrics Master Dashboard">
-</p>
+<table width="100%" border="0" cellpadding="0" cellspacing="10">
+<tr>
+<td width="50%" valign="top">
+<img src="metrics-left.svg" width="100%" alt="System Header & Core Habitation Metrics">
+</td>
+<td width="50%" valign="top">
+<img src="metrics-right.svg" width="100%" alt="Visual Graphical Telemetry Dashboard">
+</td>
+</tr>
+</table>
 
 ---
 <p align="center"><i>Telemetry matrices dynamically updated via automated deployment workflows.</i></p>
