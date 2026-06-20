@@ -13,43 +13,49 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # Step 1: Base profile stats block & habits tracking cards
+      - name: Generate Left Core Panel
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics-left-stats.svg
           token: ${{ secrets.readme }}
-
-          # Core Profile Setup
           user: Talal-Ali
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Karachi
-          
-          # CRUCIAL DEBUG MODE: If a plugin fails, show the error instead of hiding it!
-          plugins_errors_fatal: yes
-
-          # 1. 3D Isometric Calendar Graph
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # 2. Most Used Languages (Populates your language activity distribution)
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css
-
-          # 3. Coding Habits & Profiles (Calculates active hours and habits)
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # 4. Mastered Technologies (Displays your technical stack icon grid)
+      # Step 2: Dedicated 3D Isometric commit map
+      - name: Generate Right Calendar Panel
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-right-calendar.svg
+          token: ${{ secrets.readme }}
+          user: Talal-Ali
+          template: classic
+          base: ""
+          config_timezone: Asia/Karachi
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      # Step 3: Core language bar distributions & tech developer stacks
+      - name: Generate Right Language Panel
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-right-languages.svg
+          token: ${{ secrets.readme }}
+          user: Talal-Ali
+          template: classic
+          base: ""
+          config_timezone: Asia/Karachi
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 15
-
-          # 5. Achievements (Adds badge graphics to the dashboard)
-          plugin_achievements: yes
-          plugin_achievements_secrets: yes
-          plugin_achievements_limit: 5
