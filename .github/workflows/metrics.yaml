@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # LEFT GRAPHICS PANEL: Clean Header, Habits Charts, Code Volume, & 3D Skyline
+      # LEFT VISUAL PANEL: Header, Habits, Code Volume, Skyline, LeetCode, & AniList
       - name: Generate Left Side Visuals
         uses: lowlighter/metrics@latest
         with:
@@ -24,7 +24,7 @@ jobs:
           base: header
           config_timezone: Asia/Karachi
           
-          # 3D Skyline City Plugin (Renders a voxel architecture layout of commits)
+          # 3D Skyline City
           plugin_skyline: yes
           plugin_skyline_year: current
           plugin_skyline_frames: 60
@@ -36,10 +36,22 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           
-          # Lines of Code Deltas
+          # Lines of Code
           plugin_lines: yes
 
-      # RIGHT GRAPHICS PANEL: 3D Calendar, Activity Waves, Languages, and Badges
+          # LeetCode Stats (Displays your coding challenges progress)
+          plugin_leetcode: yes
+          plugin_leetcode_user: Talal-Ali
+          plugin_leetcode_sections: overview, solved, skills
+
+          # AniList Watchlist (Displays your current watching/reading status)
+          plugin_anilist: yes
+          plugin_anilist_user: Talal-Ali
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: watching
+          plugin_anilist_limit: 2
+
+      # RIGHT VISUAL PANEL: 3D Calendar, Activity Waves, Languages, Badges, Stars, & PageSpeed
       - name: Generate Right Side Visuals
         uses: lowlighter/metrics@latest
         with:
@@ -68,3 +80,12 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
+
+          # Stargazers Growth Graph (Visualizes star acquisition trends over time)
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+
+          # Google PageSpeed Insights (Displays standard score performance rings)
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://github.com/Talal-Ali
+          plugin_pagespeed_detailed: no
