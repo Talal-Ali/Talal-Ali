@@ -1,6 +1,6 @@
-# # Talal Ali 
+# Talal Ali
 
-**Software Engineer | Game Systems & AI Architecture** 
+**Software Engineer | Game Systems & AI Architecture**
 *Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.*
 
 <p align="left">
@@ -15,55 +15,52 @@
 
 * ☕ Driven by caffeine, curiosity, and the satisfaction of watching a complex loop run slightly faster than it did yesterday.
 * 🎮 A game engineer at heart who looks at a video game and immediately wonders, *"How are they handling player interpolation on that server?"*
-* 🧠 I genuinely enjoy the logic behind constraint solvers and relational databases—meaning I'm probably one of the few people who finds writing raw SQL queries relaxing.
+* 🧠 I genuinely enjoy the logic behind constraint solvers and relational databases — meaning I'm probably one of the few people who finds writing raw SQL queries relaxing.
 * ⚖️ Strong believer that clean, documented code and hyper-optimized execution don't have to be mutually exclusive.
 
 ---
 
-## 📊 Coding Habits & Recent Activity
-> Dynamic telemetry engine mapping runtime metrics, tracking core deployment cycles, and displaying diagnostic activity loops as structured in Screenshot_2026-06-20-17-08-12-801_com.instaprime.android-edit.jpg.
+## 📊 GitHub Metrics
 
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <!-- Left Metric Display: System Telemetry -->
-      <img src="https://github-readme-stats-alpha.vercel.app/api?username=Talal-Ali&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" alt="Talal's System Telemetry" width="100%" />
-    </td>
-    <td width="50%" valign="top">
-      <!-- Right Metric Display: Deployment Combo Streak -->
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Talal-Ali&theme=matrix&hide_border=true" alt="Deployment Combo Streak" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <!-- Language Allocation Matrix -->
-      <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=Talal-Ali&layout=compact&theme=matrix&hide_border=true&langs_count=6" alt="Language Allocation Matrix" width="100%" />
-    </td>
-    <td width="50%" valign="top">
-      <!-- Center Isometric Contribution Map Simulation -->
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Talal-Ali&theme=matrix&area=true&hide_border=true" alt="Activity Graph" width="100%" />
-    </td>
-  </tr>
-</table>
+> Auto-generated isometric contribution graph, performance scores, and language activity — refreshed daily by `lowlighter/metrics`.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" width="100%" />
+</p>
 
 ---
 
 ## 🛠️ Mastered Technologies & Topics
-> Layout inspired by the structured tech-stack block grid visible in the lower-left section of Screenshot_2026-06-20-17-08-12-801_com.instaprime.android-edit.jpg.
 
 ### 🕹️ Real-Time & Systems Programming
-`C#` `C++` `C` `Python` `POSIX Threads (pthreads)` `Kinematic Physics` `Multiplayer Netcode`
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![pthreads](https://img.shields.io/badge/-POSIX%20Threads-444444?style=flat-square)
+![Kinematics](https://img.shields.io/badge/-Kinematic%20Physics-444444?style=flat-square)
+![Netcode](https://img.shields.io/badge/-Multiplayer%20Netcode-444444?style=flat-square)
 
 ### 🗄️ Database & Constraint Operations
-`SQL` `MySQL` `Google OR-Tools` `Constraint Programming` `Heuristic Search`
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![OR-Tools](https://img.shields.io/badge/-Google%20OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white)
+![Constraint Programming](https://img.shields.io/badge/-Constraint%20Programming-444444?style=flat-square)
+![Heuristic Search](https://img.shields.io/badge/-Heuristic%20Search-444444?style=flat-square)
 
 ### 🔧 Infrastructure & Toolchains
-`Git` `GitHub` `GCC` `Clang` `GDB` `VS Code` `PyCharm` `HTML5 / CSS3`
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GCC](https://img.shields.io/badge/-GCC-444444?style=flat-square&logo=gnu&logoColor=white)
+![Clang](https://img.shields.io/badge/-Clang-262D3A?style=flat-square&logo=llvm&logoColor=white)
+![GDB](https://img.shields.io/badge/-GDB-444444?style=flat-square)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5%2FCSS3-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 ---
 
 ## 👀 What I'm Working on Right Now!
-> Current active development sprints and roadmap targets.
 
 * 🕹️ **Project Grey Box:** Deep in the trenches of Unity netcode, building a fast-paced multiplayer movement shooter. Currently wrestling with server-authoritative physics and custom kinematic models.
 * 🧠 **AI-DBMS Convergence:** Figuring out how to embed heavy operational research solvers (like Google OR-Tools) directly alongside SQL database pipelines to handle massive, automated data-scheduling matrices.
@@ -72,7 +69,6 @@
 ---
 
 ## 🧠 Index of Repositories & Academic Foundations
-> Layout styled after the targeted roadmap module on the bottom right of Screenshot_2026-06-20-17-08-12-801_com.instaprime.android-edit.jpg.
 
 * 🕹️ **Project Grey Box** — Online multiplayer gameplay architecture and netcode framework.
 * 🤖 **[Project_DBS_AI](https://github.com/Talal-Ali/Project_DBS_AI)** — Relational SQL systems integrated with programmatic Python optimization scripts.
