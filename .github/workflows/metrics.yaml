@@ -15,10 +15,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          # Linked to your custom secret name
+          token: ${{ secrets.readme }}
 
           # Core Options
-          user: YOUR_USERNAME
+          user: Talal-Ali
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Karachi
@@ -43,7 +44,7 @@ jobs:
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
-          plugin_languages_size: yes
+          plugin_languages_details: bytes-size, percentage
           plugin_languages_threshold: 0%
 
           # Suggested tracks
@@ -52,9 +53,9 @@ jobs:
           plugin_music_mode: recent
           plugin_music_limit: 2
 
-          # PageSpeed Insights
+          # PageSpeed Insights (Tracks performance metrics of a target URL)
           plugin_pagespeed: yes
-          plugin_pagespeed_url: https://your-portfolio-or-game-site.com
+          plugin_pagespeed_url: https://github.com/Talal-Ali
 
           # Mastered technologies
           plugin_topics: yes
