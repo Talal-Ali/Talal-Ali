@@ -37,6 +37,10 @@
 </tr>
 </table>
 
+<p align="center">
+  <img src="metrics-anilist.svg" width="60%" alt="AniList Favorites">
+</p>
+
 ---
 
 <p align="center">
