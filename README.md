@@ -26,20 +26,21 @@
 ---
 
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
-<table width="100%" style="border: none;" cellpadding="0" cellspacing="10">
-<tr>
-<td width="50%" valign="top" style="border: none;">
-<img src="metrics-left.svg" width="100%" alt="Metrics Left">
-</td>
-<td width="50%" valign="top" style="border: none;">
-<img src="metrics-right.svg" width="100%" alt="Metrics Right">
-</td>
-</tr>
+<table width="100%" style="border: none !important; border-collapse: collapse !important;">
+  <tr>
+    <td width="50%" style="border: none !important;">
+      <img src="metrics-left.svg" width="100%" alt="Metrics Left">
+    </td>
+    <td width="50%" style="border: none !important;">
+      <img src="metrics-right.svg" width="100%" alt="Metrics Right">
+    </td>
+  </tr>
 </table>
 
 <p align="center">
   <img src="metrics-anilist.svg" width="60%" alt="AniList Favorites">
 </p>
+
 ---
 
 <p align="center">
