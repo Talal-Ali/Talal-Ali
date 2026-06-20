@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Talal%20Ali&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40" width="100%"/>
+# Talal Ali
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=Talal-Ali">
@@ -43,6 +43,10 @@
 ---
 <p align="center">
   <img src="github-skyline.svg" width="100%" alt="GitHub Skyline">
+</p>
+---
+<p align="center">
+  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
 ---
 <p align="center"><i>Telemetry matrices dynamically updated via automated deployment workflows.</i></p>
