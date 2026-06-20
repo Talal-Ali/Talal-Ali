@@ -26,7 +26,7 @@
 ---
 
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
-<table width="100%" border="0" cellpadding="0" cellspacing="10">
+<table width="100%" border="None" cellpadding="0" cellspacing="10">
 <tr>
 <td width="50%" valign="top">
 <img src="metrics-left.svg" width="100%" alt="Metrics Left">
