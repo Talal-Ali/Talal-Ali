@@ -1,79 +1,63 @@
-name: Metrics Dashboard
-on:
+name: GitHub Metrics
+"on":
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
-      - master
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      # LEFT GRAPHICS PANEL: Core Profile Header, Coding Clock, and Code Deltas
-      - name: Generate Left Side Visuals
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
-          filename: metrics-left.svg
-          token: ${{ secrets.readme }}
-          user: Talal-Ali
-          template: classic
-          base: header
-          config_timezone: Asia/Karachi
-          
-          # Coding Habits (Visual schedules and donut charts)
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
-          
-          # Lines of Code (Vibrant linear volume changes)
-          plugin_lines: yes
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: "github-metrics.svg"
 
-          # LeetCode Stats 
-          # Note: If your LeetCode handle is different, swap 'Talal-Ali' below
-          plugin_leetcode: yes
-          plugin_leetcode_user: Talal-Ali
-          plugin_leetcode_sections: overview, solved
+          user: "Talal-Ali"
+          template: "classic"
+          base: "header, activity, community, repositories, metadata"
+          config_timezone: "Asia/Karachi"
+          config_display: "large"
+          config_theme: "dark"
+          config_animations: "yes"
 
-      # RIGHT GRAPHICS PANEL: 3D Calendar, Activity Waves, Languages, and Stable Badges
-      - name: Generate Right Side Visuals
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-right.svg
-          token: ${{ secrets.readme }}
-          user: Talal-Ali
-          template: classic
-          base: ""
-          config_timezone: Asia/Karachi
-          
-          # 3D Isometric Calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          
-          # Activity Graph Waves
-          plugin_activitygraph: yes
-          plugin_activitygraph_days: 14
-          
-          # Languages Progress Bars
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_limit: 6
-          
-          # Stargazers Charts
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          
-          # Gamified Arcade Achievements (Fixed the syntax crash)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
+          # Left column — commit habits / activity bars
+          plugin_habits: "yes"
+          plugin_habits_charts_type: "bar"
+          plugin_habits_facts: "yes"
+          plugin_habits_from: "200"
 
-          # Optional: To restore AniList, uncomment the 4 lines below and change 'YOUR_USERNAME'
-          # plugin_anilist: yes
-          # plugin_anilist_user: YOUR_ANILIST_USERNAME
-          # plugin_anilist_medias: anime
-          # plugin_anilist_sections: watching
+          # Language activity bars
+          plugin_languages: "yes"
+          plugin_languages_analysis_timeout: "15"
+          plugin_languages_skipped: "Talal-Ali"
+          plugin_languages_details: "bytes-size, percentage"
+
+          # Right column — isometric 3D contribution calendar (compact block, not full-year strip)
+          plugin_isocalendar: "yes"
+          plugin_isocalendar_duration: "half-year"
+
+          # Stargazers over time
+          plugin_stargazers: "yes"
+          plugin_stargazers_charts: "yes"
+
+          # Anilist watch/reading list
+          plugin_anilist: "yes"
+          plugin_anilist_medias: "anime, manga"
+          plugin_anilist_username: "TalalAl1"
+
+          # LeetCode statistics
+          plugin_leetcode: "yes"
+          plugin_leetcode_user: "_talal_ali_"
+          plugin_leetcode_sections: "warnings, heatmap, ranking, problems"
+
+          # Code line stats
+          plugin_lines: "yes"
+          plugin_lines_sections: "code"
+
+          plugin_music: "no"
