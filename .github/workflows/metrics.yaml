@@ -55,7 +55,6 @@ jobs:
           plugin_leetcode: "yes"
           plugin_leetcode_user: "_talal_ali_"
           plugin_leetcode_sections: "status, ranking"
-
       # Block 4: Bottom Right
       - name: Bottom Right - Calendar & Habits
         uses: lowlighter/metrics@latest
