@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" align="right" width="380" />
+
 # Talal Ali
 
 **Software Engineer | Game Systems & AI Architecture**
@@ -17,6 +19,8 @@
 * 🎮 A game engineer at heart who looks at a video game and immediately wonders, *"How are they handling player interpolation on that server?"*
 * 🧠 I genuinely enjoy the logic behind constraint solvers and relational databases — meaning I'm probably one of the few people who finds writing raw SQL queries relaxing.
 * ⚖️ Strong believer that clean, documented code and hyper-optimized execution don't have to be mutually exclusive.
+
+<br clear="right"/>
 
 ---
 
@@ -78,14 +82,4 @@
 
 <p align="right">
   <i>Last Verified Update: June 2026</i>
-</p>
-
----
-
-## 📊 GitHub Metrics
-
-> Auto-generated isometric contribution calendar, performance scores, language activity, and coding habits — refreshed daily by `lowlighter/metrics`.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" width="100%" />
 </p>
