@@ -1,9 +1,12 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - main
+      - master
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -18,13 +21,13 @@ jobs:
           user: YOUR_USERNAME
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Karachi # Sets accurate commit activity times
+          config_timezone: Asia/Karachi
           
-          # Isometric calendar (The 3D contribution graph)
+          # Isometric calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # Coding habits and recent activity
+          # Coding habits
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
@@ -43,16 +46,16 @@ jobs:
           plugin_languages_size: yes
           plugin_languages_threshold: 0%
 
-          # Suggested tracks (Music plugin)
+          # Suggested tracks
           plugin_music: yes
-          plugin_music_provider: apple # Change to 'spotify' if preferred
+          plugin_music_provider: apple
           plugin_music_mode: recent
           plugin_music_limit: 2
 
           # PageSpeed Insights
           plugin_pagespeed: yes
-          plugin_pagespeed_url: [https://your-portfolio-or-game-site.com](https://your-portfolio-or-game-site.com)
+          plugin_pagespeed_url: https://your-portfolio-or-game-site.com
 
-          # Mastered technologies (The icon grid)
+          # Mastered technologies
           plugin_topics: yes
           plugin_topics_mode: icons
