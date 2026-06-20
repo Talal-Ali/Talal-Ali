@@ -84,23 +84,8 @@
 
 ## 📊 GitHub Metrics
 
-> Auto-generated contribution calendar, performance scores, language activity, and coding habits — refreshed daily by `lowlighter/metrics`.
+> Auto-generated isometric contribution calendar, performance scores, language activity, and coding habits — refreshed daily by `lowlighter/metrics`.
 
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/metrics-lighthouse.svg" alt="Performance & Accessibility Scores" width="100%" />
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/metrics-lines.svg" alt="Coding Activity" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/metrics-languages.svg" alt="Language Activity" width="100%" />
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/metrics-calendar.svg" alt="Isometric Contribution Calendar" width="100%" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" width="100%" />
+</p>
