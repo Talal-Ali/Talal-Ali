@@ -1,15 +1,37 @@
-<img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" align="right" width="380" />
+<table border="0" width="100%">
+<tr>
+<td width="33%" valign="top">
 
 # Talal Ali
 
 **Software Engineer | Game Systems & AI Architecture**
+
 *Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.*
 
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:your.email@domain.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail" alt="Email" /></a>
-  <a href="https://your-portfolio-link"><img src="https://img.shields.io/badge/Portfolio-Itch.io-FA5C5C?style=flat-square&logo=itch-dot-io" alt="Portfolio" /></a>
-</p>
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin" alt="LinkedIn" /></a><br/>
+<a href="mailto:your.email@domain.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail" alt="Email" /></a><br/>
+<a href="https://your-portfolio-link"><img src="https://img.shields.io/badge/Portfolio-Itch.io-FA5C5C?style=flat-square&logo=itch-dot-io" alt="Portfolio" /></a>
+
+</td>
+<td width="33%" valign="top">
+
+### 📈 GitHub Stats
+
+![Repos](https://img.shields.io/badge/dynamic/json?style=flat-square&label=Repositories&query=public_repos&url=https://api.github.com/users/Talal-Ali&color=informational)
+![Followers](https://img.shields.io/github/followers/Talal-Ali?style=flat-square&label=Followers&color=informational)
+![Stars](https://img.shields.io/badge/dynamic/json?style=flat-square&label=Total%20Stars&query=$.length&url=https://api.github.com/search/repositories%3Fq%3Duser:Talal-Ali&color=yellow)
+
+![Top Language](https://img.shields.io/github/languages/top/Talal-Ali/Project_DBS_AI?style=flat-square&label=Top%20Language)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+
+</td>
+<td width="34%" valign="top">
+
+<img src="https://raw.githubusercontent.com/Talal-Ali/Talal-Ali/main/github-metrics.svg" alt="Talal's GitHub Metrics" width="100%" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -19,8 +41,6 @@
 * 🎮 A game engineer at heart who looks at a video game and immediately wonders, *"How are they handling player interpolation on that server?"*
 * 🧠 I genuinely enjoy the logic behind constraint solvers and relational databases — meaning I'm probably one of the few people who finds writing raw SQL queries relaxing.
 * ⚖️ Strong believer that clean, documented code and hyper-optimized execution don't have to be mutually exclusive.
-
-<br clear="right"/>
 
 ---
 
