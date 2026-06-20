@@ -1,6 +1,5 @@
 # Talal Ali
 
-
 ### Software Engineer | Game Systems & AI Architecture
 > Specializing in Performance Optimization, Real-Time Systems, and Intelligent Relational Databases.
 ---
