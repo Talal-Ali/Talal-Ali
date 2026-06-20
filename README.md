@@ -17,12 +17,7 @@
 
 ### 📈 GitHub Stats
 
-![Repos](https://img.shields.io/badge/dynamic/json?style=flat-square&label=Repositories&query=public_repos&url=https://api.github.com/users/Talal-Ali&color=informational)
-![Followers](https://img.shields.io/github/followers/Talal-Ali?style=flat-square&label=Followers&color=informational)
-![Stars](https://img.shields.io/badge/dynamic/json?style=flat-square&label=Total%20Stars&query=$.length&url=https://api.github.com/search/repositories%3Fq%3Duser:Talal-Ali&color=yellow)
-
-![Top Language](https://img.shields.io/github/languages/top/Talal-Ali/Project_DBS_AI?style=flat-square&label=Top%20Language)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+<img src="https://github-readme-stats.vercel.app/api?username=Talal-Ali&show_icons=true&include_all_commits=true&count_private=true&theme=dark&hide_border=true" alt="GitHub Stats" width="100%" />
 
 </td>
 <td width="34%" valign="top">
@@ -33,7 +28,6 @@
 </tr>
 </table>
 
----
 
 ## 👨‍💻 TL;DR — Who Am I?
 
@@ -42,7 +36,6 @@
 * 🧠 I genuinely enjoy the logic behind constraint solvers and relational databases — meaning I'm probably one of the few people who finds writing raw SQL queries relaxing.
 * ⚖️ Strong believer that clean, documented code and hyper-optimized execution don't have to be mutually exclusive.
 
----
 
 ## 🛠️ Mastered Technologies & Topics
 
@@ -72,7 +65,6 @@
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5%2FCSS3-E34F26?style=flat-square&logo=html5&logoColor=white)
 
----
 
 ## 👀 What I'm Working on Right Now!
 
@@ -80,7 +72,6 @@
 * 🧠 **AI-DBMS Convergence:** Figuring out how to embed heavy operational research solvers (like Google OR-Tools) directly alongside SQL database pipelines to handle massive, automated data-scheduling matrices.
 * 🤖 **Smart Classifier:** Developing intelligent classification systems leveraging machine learning and pattern recognition to optimize data processing and decision-making workflows.
 
----
 
 ## 🧠 Index of Repositories & Academic Foundations
 
@@ -94,7 +85,6 @@
 * 🔢 **[PF-Project](https://github.com/Talal-Ali/PF-Project)** — Low-level search/sort algorithmic runtime performance benchmarks in C.
 * 🌐 **[ICT-Lab](https://github.com/Talal-Ali/ICT-Lab)** — Semantic structural web frameworks, responsive layouts, and optimization standards.
 
----
 
 <p align="center">
   <code>System.Console.WriteLine("Let's build something optimized.");</code>
