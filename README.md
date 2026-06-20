@@ -26,16 +26,11 @@
 ---
 
 ## 🖥️ SYSTEM CONFIGURATION DASHBOARD
-<table width="100%" style="border: none !important; border-collapse: collapse !important; background: transparent !important;">
-  <tr style="border: none !important; background: transparent !important;">
-    <td width="50%" style="border: none !important; background: transparent !important;">
-      <img src="metrics-left.svg" width="100%" alt="Metrics Left">
-    </td>
-    <td width="50%" style="border: none !important; background: transparent !important;">
-      <img src="metrics-right.svg" width="100%" alt="Metrics Right">
-    </td>
-  </tr>
-</table>
+
+<div align="center">
+  <img src="metrics-left.svg" width="49%" alt="Metrics Left">
+  <img src="metrics-right.svg" width="49%" alt="Metrics Right">
+</div>
 
 <p align="center">
   <img src="metrics-anilist.svg" width="60%" alt="AniList Favorites">
@@ -46,3 +41,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
+
+---
+
+<p align="center"><i>Telemetry matrices dynamically updated via automated deployment workflows.</i></p>
