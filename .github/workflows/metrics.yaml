@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # LEFT VISUAL PANEL: Header, Habits, Code Volume, Skyline, LeetCode, & AniList
+      # LEFT GRAPHICS PANEL: Core Profile Header, Coding Clock, and Code Deltas
       - name: Generate Left Side Visuals
         uses: lowlighter/metrics@latest
         with:
@@ -24,34 +24,22 @@ jobs:
           base: header
           config_timezone: Asia/Karachi
           
-          # 3D Skyline City
-          plugin_skyline: yes
-          plugin_skyline_year: current
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 0.5
-          
-          # Coding Habits Donut Charts
+          # Coding Habits (Visual schedules and donut charts)
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: no
           plugin_habits_charts: yes
           
-          # Lines of Code
+          # Lines of Code (Vibrant linear volume changes)
           plugin_lines: yes
 
-          # LeetCode Stats (Displays your coding challenges progress)
+          # LeetCode Stats 
+          # Note: If your LeetCode handle is different, swap 'Talal-Ali' below
           plugin_leetcode: yes
           plugin_leetcode_user: Talal-Ali
-          plugin_leetcode_sections: overview, solved, skills
+          plugin_leetcode_sections: overview, solved
 
-          # AniList Watchlist (Displays your current watching/reading status)
-          plugin_anilist: yes
-          plugin_anilist_user: Talal-Ali
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: watching
-          plugin_anilist_limit: 2
-
-      # RIGHT VISUAL PANEL: 3D Calendar, Activity Waves, Languages, Badges, Stars, & PageSpeed
+      # RIGHT GRAPHICS PANEL: 3D Calendar, Activity Waves, Languages, and Stable Badges
       - name: Generate Right Side Visuals
         uses: lowlighter/metrics@latest
         with:
@@ -76,16 +64,16 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 6
           
-          # Gamified Arcade Achievements
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-
-          # Stargazers Growth Graph (Visualizes star acquisition trends over time)
+          # Stargazers Charts
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
+          
+          # Gamified Arcade Achievements (Fixed the syntax crash)
+          plugin_achievements: yes
+          plugin_achievements_display: compact
 
-          # Google PageSpeed Insights (Displays standard score performance rings)
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://github.com/Talal-Ali
-          plugin_pagespeed_detailed: no
+          # Optional: To restore AniList, uncomment the 4 lines below and change 'YOUR_USERNAME'
+          # plugin_anilist: yes
+          # plugin_anilist_user: YOUR_ANILIST_USERNAME
+          # plugin_anilist_medias: anime
+          # plugin_anilist_sections: watching
